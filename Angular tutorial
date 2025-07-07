@@ -1,0 +1,33 @@
+Inside the angular class we can not declare a variable we have to use the properties and if you wants to declare a variable 
+then create a function inside the  class then create the variable 
+
+export class Appcomponent{
+title="this is the title"
+this is the property
+
+hello(){
+let x=10; this is the variable
+}
+}
+
+
+Files and folders in angular :-
+package.json :- all the details of the project like version and dependencies 
+Dev dependencies are run only in the development building and testing the application 
+but Dependency will need to run during the production 
+✅ Yes! dependencies ARE needed during development.
+They are used both in development AND in production because they are core to your app's functionality.
+During production, devDependencies are not needed.
+
+
+
+Interpolation in Angular :- The interpolation is used to show the js code in the html file and and to access 
+the variables and properties from the typescript file {{}} this is used for the interpolation.
+
+
+
+
+
+
+Questions :- can we define multiple template urls in the same typescript file 
+ how can we pass one component to multiple component in the angular js
