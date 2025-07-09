@@ -53,7 +53,7 @@ Questions :- can we define multiple template urls in the same typescript file
  how can we pass one component to multiple component in the angular js
 
 
-Related Topics :- Injectable,Subscriber , Pipes , observable ,    .pipe(debounceTime(300)),  RxJS Observables.,Signals ,
+Related Topics :- Injectable,Subscriber , Pipes , observable ,    .pipe(debounceTime(300)),  RxJS Observables.,Signals ,Behaviour subject and event emitter,computed,4. ChangeDetectorRef,
 
 *******************************************************************************************************************************************************************************************************
 🔍 What is ngOnInit?
@@ -111,19 +111,25 @@ That’s where ngDoCheck() comes in!
 runs on every changes and runs even when nothing has changed
 
 *******************************************************************************************************************************************************************************************************
+what is signals (only high level signals are useful)?
 
 
 
+*******************************************************************************************************************************************************************************************************
+
+🧠 What is BehaviorSubject?
+BehaviorSubject is a special kind of RxJS Subject that:
+Always holds a current value
+Emits the latest value to new subscribers immediately
+Allows you to get the current value synchronously
+
+*******************************************************************************************************************************************************************************************************
+Effect in angular :-
+effect allows you to create a side effect that automatically runs when the values it depends on change. In your case, it's set to log the updated total price whenever it changes
 
 
 
-
-
-
-
-
-
-
+*******************************************************************************************************************************************************************************************************
 
 
 
