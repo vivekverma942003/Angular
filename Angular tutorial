@@ -53,7 +53,7 @@ Questions :- can we define multiple template urls in the same typescript file
  how can we pass one component to multiple component in the angular js
 
 
-Related Topics :- Injectable,Subscriber , Pipes , observable ,    .pipe(debounceTime(300)),  RxJS Observables.,
+Related Topics :- Injectable,Subscriber , Pipes , observable ,    .pipe(debounceTime(300)),  RxJS Observables.,Signals ,
 
 *******************************************************************************************************************************************************************************************************
 🔍 What is ngOnInit?
