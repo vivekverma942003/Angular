@@ -110,6 +110,9 @@ So, ngOnChanges() won’t trigger.
 That’s where ngDoCheck() comes in!
 runs on every changes and runs even when nothing has changed
 
+*******************************************************************************************************************************************************************************************************
+
+
 
 
 
