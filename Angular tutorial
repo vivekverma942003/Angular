@@ -112,7 +112,11 @@ runs on every changes and runs even when nothing has changed
 
 *******************************************************************************************************************************************************************************************************
 what is signals (only high level signals are useful)?
-
+const counter = signal(0);          // declare signal
+console.log(counter());             // get value => 0
+counter.set(10);                    // set value
+console.log(counter());             // => 10
+counter update(value => value + 1); /
 
 
 *******************************************************************************************************************************************************************************************************
